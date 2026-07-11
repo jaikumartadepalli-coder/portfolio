@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee086b0443.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#certifications">certifications</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#About">projects</a></li>
+                    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>DATA ANALYST</p>
+                <H1>Hi,i'm<span> jagadeesh </span></H1>
+
+                   <h3> interest about bunsinss analytics to <br>
+                    building effective decision-making <br>for business</span></H1>
+                    
+            </div>
+        </div>
+
+    </div>
+    <!-----------About--------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="images/user1.jpeg">
+                   
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a results-driven Data Analyst with a passion for turning complex, fragmented data into clear,
+                         actionable business strategies. With a strong foundation in statistical analysis, data modeling,
+                         and predictive analytics, 
+                         I bridge the gap between technical data engineering and executive decision-making.
+
+                         I thrive on uncovering hidden patterns, building robust data pipelines, and creating 
+                         intuitive dashboards that empower teams to optimize performance and drive growth.
+                    </p>
+                         <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contennts active-tab" id="skills">
+                            <ul>
+                                <li><span>business</span><br>business data Analyst</li>
+                                <li><span>Dynamic</span><br> frontend data Analyst</li>
+                                <li><span>flexible</span><br> powerBi toolAnalysis</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contennts" id="projects">
+                            <ul>
+                                <li><span>project 1</span><br>Covid-19 evalution level</li>
+                                <li><span>project 2</span><br> netflix movies recomdetion for users</li>
+                                <li><span>project 3</span><br> social media service of meta</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contennts" id="education">
+                            <ul>
+                                <li><span>UG:</span><br>B.tech in kakinada institute of technology and sciece,<br>CGPA :7.8</li>
+                                <li><span>INTERMEDIATE</span><br>math,physics,chemisty<br> Govt junior college <br> percentage:78%</li>
+                                <li><span>SECONDARY</span><br> ZPHS ,percentage:80%</li>
+                            </ul>
+                         </div>
+                         
+                     
+                   <a href="images/JAGADEESHKUMAR TADEPALLI.docx" download class="btn btn2">RESUME</a> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<!--------------certifications-------------->
+<div id ="services">
+    <div class="container">
+         <h1 class="sub-title"> my services</h1>
+         <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Predictive Analytics</h2>   
+                <p>Using statistical models and Machine Learning
+                 to forecast future trends, user behavior, or business demand.</p>
+             <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-brands fa-free-code-camp"></i>
+                <h2>FreelancePlatforms:</h2>   
+                <p>For one-off projects, specific dashboard creation, 
+                or targeted data fixes, platforms like Upwork, Fiverr, and Toptal allow you to hire individual
+                data analysts proficient in Python, R, SQL, and Excel.</p>
+             <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-arrow-trend-down"></i>
+                <h2>Business Intelligence(BI):</h2>   
+                <p>Creating interactive dashboards and visual 
+                tracking tools using platforms like Power BI,
+                Tableau, or Looker Studio to track key metrics at a glance.</p>
+             <a href="#">Learn more</a>
+            </div>
+         </div>
+    </div>
+</div>
+<!--------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work4.webp">
+                <div class="layer">
+                    <h3>netflix dashboard</h3>
+                    <p>A Netflix Dashboard in Tableau is an interactive 
+                        data visualization project that analyzes the streaming
+                         platform's content library</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Social media</h3>
+                    <p>A social media dashboard is a centralized interface that aggregates performance 
+                        metrics from multiple platforms </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.webp">
+                <div class="layer">
+                    <h3>Covid-19</h3>
+                    <p>India maintains several COVID-19 dashboards that track the pandemic's spread through state-wise, 
+                        district-level, and national metrics. </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                         
+                </div>
+            </div>
+        </div>
+        <a href="https://linktr.ee/jaikumartadepalli" class="btn">See more</a>
+
+    </div>
+</div>
+
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title"> certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ceri1.png">
+                <div class="layer1">
+                    <h3>AWS CLOUD</h3>
+                    <p>This program gave me a strong foundation in cloud architecture, 
+                        AWS core services, and the operational principles of modern cloud infrastructure.</p>
+                         
+                         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certi2.png">
+                <div class="layer1">
+                    <h3>DATA ANALYST</h3>
+                    <p>Completed a practical Data Analytics Job Simulation with Deloitte via Forage, gaining hands-on exposure
+                         to the workflows of data analysts and forensic consultants.</p>
+                        
+                         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WhatsApp Image 2026-06-29 at 15.56.32.jpeg">
+                <div class="layer1">
+                    <h3>AI-ML</h3>
+                    <p>Completed a comprehensive internship focused on Artificial Intelligence and Machine Learning. 
+                        During this period, I developed core technical skills and gained hands-on experience in intelligence analysis visualization and advanced investigative techniques. </p>
+                         
+                         
+                </div>
+            </div>
+        </div>
+        <a  class="btn1"></a>
+
+    </div>
+</div>
+<!----------------contect------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="sud- title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>jaikumartadepalli@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9492613421</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/jai_explain/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jagadeesh-kumar-tadepalli-b562a0351/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/jaikumartadepalli-coder"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                 <span id="msg"></span>
+                <form name="YOUR_FORM_NAME"><i class="fa-solid fa-user"></i>
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <i class="fa-regular fa-message"></i>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+               
+            </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>we wanna work Togrther! <br>Hire Me</p>
+        </div>
+    </div> 
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontennts= document.getElementsByClassName("tab-contennts");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontennt of tabcontennts){
+            tabcontennt.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+        
+    }
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyjsu83o82l2E2EruloocrBLF6C2mj1d0DCO6wdWRQ1zKfPfSBstLdKZGLSimOwy54/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+    const msg=document.getElementById("msg")
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                msg.innerHTML="message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</html>
